@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Custom horizontal scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #FFA500;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFA500;
+  border-radius: 10px;
+}
+
+
+/* auto type style */
+#auto_type_custom_style {
+  font-size: 2.7rem;
+  color: #fff;
+  font-weight: 700;
+}
+#auto_type_custom_blinkCursor {
+  font-size: 2.7rem;
+  color: #fff;
+}
+@media (max-width: 780px) {
+  #auto_type_custom_style {
+    font-size: 2rem;
+  }
+  #auto_type_custom_blinkCursor {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 414px) {
+  #auto_type_custom_style {
+    font-size: 1.7rem;
+  }
+  #auto_type_custom_blinkCursor {
+    font-size: 1.7rem;
+  }
+}
